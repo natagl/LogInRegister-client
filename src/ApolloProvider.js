@@ -13,7 +13,7 @@ const errorLink = onError(({ graphQLErrors }) => {
 
 //end poin of sever
 const httpLink = createHttpLink({
-  uri: "https://pacific-ravine-32166.herokuapp.com/",
+  uri: "https://tranquil-wildwood-09091.herokuapp.com/",
 });
 
 //storing cached data
